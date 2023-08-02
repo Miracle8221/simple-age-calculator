@@ -3,9 +3,10 @@ const a = parseInt(prompt("Enter birth year: "));
 const b = parseInt(prompt("Enter current year: "));
 // create an substration function
 function substration() {
-    // The addition function will return the substraction for input a and b
+    // The substraction function will return the substraction for input a and b
     return a - b;
 
 }
 
 // Invoke addition function to run the calculator
+console.log(substraction());
